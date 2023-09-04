@@ -1,10 +1,12 @@
-* {
+:root {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 body {
   background-color: rgb(26, 26, 26);
   color: aliceblue;
+  margin: 0;
+  padding-top: 0;
 }
 
 .center-image {
@@ -23,3 +25,17 @@ img {
   justify-content: center;
 }
 
+.header {
+  background-color: brown;
+  width: 100%;
+  margin: 0;
+  padding: 0%;
+}
+
+h1 {
+  margin: 0;
+}
+
+article {
+  margin: 0 10px 0 10px;
+}
